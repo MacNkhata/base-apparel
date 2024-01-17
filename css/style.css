@@ -90,6 +90,10 @@ section.left button {
   box-shadow: 6px 8px 12px rgba(0, 0, 0, 0.1);
 }
 
+section.left form p {
+  display: none;
+}
+
 section.right {
   width: 35%;
   background: url('../images/hero-desktop.jpg');
