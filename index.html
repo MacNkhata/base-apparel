@@ -33,12 +33,19 @@
             fashion store. Add your email below to stay up-to-date with <br />
             announcements and our launch deals.
           </p>
-          <form action="">
-            <input type="text" placeholder="Email Address" />
+          <form id="site-form">
+            <div class="form-input">
+              <img
+                src="images/icon-error.svg"
+                alt="icon"
+                class="error_img error"
+              />
+              <input type="email" id="input" placeholder="Email Address" />
+            </div>
             <button type="submit">
               <img src="images/icon-arrow.svg" alt="" height="16" width="12" />
             </button>
-            <p>Please provide a valid email</p>
+            <p class="error_txt error">Please provide a valid email</p>
           </form>
         </div>
       </section>
@@ -52,5 +59,6 @@
         >. Coded by <a href="#">Macdonald Nkhata</a>.
       </p>
     </footer>
+    <script src="js/app.js"></script>
   </body>
 </html>

@@ -60,6 +60,17 @@ section.left p {
   font-size: 1em;
   margin-bottom: 40px;
 }
+.form-input {
+  display: inline;
+  position: relative;
+}
+
+.form-input img {
+  position: absolute;
+  right: 0;
+  margin-top: 15px;
+  margin-right: 70px;
+}
 
 section.left input {
   width: 47%;
@@ -81,6 +92,7 @@ section.left input::placeholder {
 }
 
 section.left button {
+  position: relative;
   border: none;
   width: 80px;
   height: 50px;
@@ -88,9 +100,17 @@ section.left button {
   margin-left: -64px;
   background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
   box-shadow: 6px 8px 12px rgba(0, 0, 0, 0.1);
+  z-index: 10;
 }
 
 section.left form p {
+  margin-top: 10px;
+  margin-left: 30px;
+  font-size: 12px;
+  color: hsl(0, 93%, 68%);
+}
+
+.error {
   display: none;
 }
 
